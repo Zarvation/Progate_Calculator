@@ -1,0 +1,22 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+.calculator{
+    background-color: grey;
+}
+.calc-screen{
+    background-color: darkslategray;
+    color: beige;
+}

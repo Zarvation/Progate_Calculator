@@ -13,10 +13,74 @@ h1, h2, h3, h4, h5, h6, p, div {
     padding: 0 50px;
     margin: 0 auto;
 }
+header,footer{
+    background-color: darkcyan;
+    color: beige;
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    height: 55px;
+}
+.head{
+    text-align: center;
+    padding-top: 10px;
+}
+.content{
+    margin: 25px 0;
+}
 .calculator{
-    background-color: grey;
+    background-color: darkcyan;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    width: 400px;
 }
 .calc-screen{
     background-color: darkslategray;
     color: beige;
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    font-size: 36px;
+    padding: 0 20px;
+    border: 1px solid darkslategray;
+}
+.calc-keys{
+    width: 100%;
+}
+.row{
+    display: flex;
+}
+.calc-key{
+    height: 80px;
+    border: 1px solid darkslateblue;
+    background-color: #b4faf4;
+    color: midnightblue;
+    font-size: 32px;
+    width: 25%;
+}
+.btn-AC, .btn-0 {
+    width: 50%;
+}
+.operator{
+    background-color: aqua;
+}
+.calc-key:hover{
+    background-color: #72a39f;
+}
+.calc-key:active{
+    background-color: #98d9d3;
+}
+.operator:hover{
+    background-color: #00b8b8;
+}
+.operator:active{
+    background-color: #00e0e0;
+}
+.foot-left{
+    display: inline-block;
+    padding-top: 10px;
+}
+.foot-right{
+    padding-top: 10px;
+    float: right;
 }

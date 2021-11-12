@@ -61,7 +61,7 @@ header,footer{
 .btn-AC, .btn-0 {
     width: 50%;
 }
-.operator{
+.operator,.btn-equal{
     background-color: aqua;
 }
 .calc-key:hover{
